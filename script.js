@@ -9,7 +9,7 @@ const memes = [
     name: "Antonella Merdino",
     desc: "Puttana più vecchia del Monregale, pensa di far estremamente ridere, penalizza i DSA, mette i voti sbattendo una bacchetta di sambuco sul PC",
     price: "Acquista: VIII&#8364;",
-    img: "img/Merdino.png",
+    img: "img/Merdino.jpg",
   },
   {
     name: "Erminio Oddone",
@@ -54,3 +54,4 @@ btnBck.addEventListener("click", () => {
 });
 
 showMeme(currentIndex);
+
