@@ -55,4 +55,21 @@ btnBck.addEventListener("click", () => {
 
 showMeme(currentIndex);
 
+const modal = document.getElementById("modal");
+const closeBtn = document.querySelector(".close");
+
+productPrice.addEventListener("click", () => {
+  modal.style.display = "block";
+});
+
+closeBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+window.addEventListener("click", (event) => {
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
+});
+
 
